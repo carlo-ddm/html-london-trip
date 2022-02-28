@@ -55,8 +55,7 @@
 
         <tfoot>
           <tr>
-            <td>Totale</td>
-            <td></td>
+            <td colspan="2">Totale</td>
             <td>360&euro;</td>
           </tr>
         </tfoot>
@@ -82,7 +81,9 @@
       <h3>Info utili:</h3>
       <!-- Lista ordinata con items in forma lista non ordinata -->
       <ol>
-        <li>Numeri utili di emergenza
+        <li>
+          <!-- inserimento di span è importante per rilevare tag su css ed è semanticamente migliore come procedimento  -->
+          <span>Numeri utili di emergenza</span> 
           <ul>
             <li> <strong>999</strong> &ndash; Emergenza</li>
             <li><strong>101</strong> &ndash; Numero polizia</li>
@@ -90,14 +91,16 @@
           </ul>
         </li>
 
-        <li>Hotel
+        <li>
+          <span>Hotel</span>
           <ul>
             <li> <strong>Nome hotel:</strong> Buckingham Palace</li>
             <li><strong>Indirizzo hotel</strong> Westminister, London SW1A1AA, Regno Unito</li>
           </ul>
         </li>
         
-        <li>Aereo
+        <li>
+          <span>Aereo</span>
           <ul>
             <li> <strong>Volo di Andata:</strong> Y1234X, ore 9:30 da Milano Malpensa</li>
             <li><strong>Volo di Ritorno:</strong> Y1236X, ore 18:30 da London Heathrow</li>
